@@ -1,0 +1,23 @@
+.menu-search__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.menu-search__item a {
+  display: block;
+}
+
+.menu-search__icon-search {
+  display: block;
+  width: 21px;
+  height: 23px;
+  fill: #000000;
+}
+
+.menu-search__icon-burger-menu {
+  width: 27px;
+  height: 19px;
+  fill: #000000;
+}

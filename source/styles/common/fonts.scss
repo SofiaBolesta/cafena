@@ -1,1 +1,30 @@
 /* здесь подключите шрифты */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-display: swap;
+  src:
+    url("../fonts/montserrat/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "OpenSans";
+  font-display: swap;
+  src:
+    url("../fonts/open-sans/OpenSans.woff") format("woff"),
+    url("../fonts/open-sans/OpenSans.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "ZCOOLXiaoWei";
+  font-display: swap;
+  src:
+    url("../fonts/zcool-xiaowei/ZCOOLXiaoWei-Regular.woff") format("woff"),
+    url("../fonts/zcool-xiaowei/ZCOOLXiaoWei-Regular.woff2") format("woff2");
+}

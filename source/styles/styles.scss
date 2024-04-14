@@ -2,6 +2,14 @@
 @import "./common/variables.scss";
 @import "./common/global.scss";
 @import "./common/fonts.scss";
+@import "./common/mixins.scss";
+
+/* VENDOR */
+@import "./vendor/normalize.scss";
+@import "./vendor/swiper.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "blocks/header/header";
+@import "blocks/header/menu-by-page";
+@import "blocks/header/menu-by-contact";
+@import "blocks/header/menu-search";
