@@ -8,6 +8,61 @@
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
-    <header class="header">Шапка</header>
+    <header class="header">
+      <div class="header__wrapper">
+        <a href="#" class="header__logotype">
+          <picture>
+            <img src="images/logotype.svg" width="16" height="16" alt="Логотип компании Cafena">
+          </picture>
+        </a>
+        <nav class="header__menu-home menu-by-page">
+          <ul class="menu-by-page__list">
+            <li class="menu-by-page__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="menu-by-page__item">
+              <a href="#">About</a>
+            </li>
+            <li class="menu-by-page__item">
+              <a href="#">Manu</a>
+            </li>
+            <li class="menu-by-page__item">
+              <a href="#">Reservation</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="header__menu-contacts menu-by-contact">
+          <ul class="menu-by-contact__list">
+            <li class="menu-by-contact__item">
+              <a href="#">Pages</a>
+            </li>
+            <li class="menu-by-contact__item">
+              <a href="#">Shop</a>
+            </li>
+            <li class="menu-by-contact__item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="header__menu-search menu-search">
+          <ul class="menu-search__list">
+            <li class="menu-search__item">
+              <a href="#">
+                <svg class="menu-search__icon-search" viewBox="0 0 21 23" width="21" height="23">
+                  <use href="stack.svg#search"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-search__item">
+              <a href="#">
+                <svg class="menu-search__icon-burger-menu" viewBox="0 0 27 16" width="27" height="16">
+                  <use href="stack.svg#burger-menu"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
