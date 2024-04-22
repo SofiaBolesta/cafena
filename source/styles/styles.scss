@@ -3,6 +3,7 @@
 @import "./common/global.scss";
 @import "./common/fonts.scss";
 @import "./common/mixins.scss";
+@import "./common/title.scss";
 
 /* VENDOR */
 @import "./vendor/normalize.scss";
@@ -17,3 +18,4 @@
 @import "blocks/main/about-us/about-us";
 @import "blocks/main/about-us/best-coffee-flavor";
 @import "blocks/main/purchase-coffee";
+@import "blocks/main/popular-product";
