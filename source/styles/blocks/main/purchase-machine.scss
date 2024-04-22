@@ -1,0 +1,75 @@
+.purchase-machine {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0 0 90px;
+}
+
+.purchase-machine__wrapper {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.purchase-machine__content {
+  max-width: 676px;
+}
+
+.purchase-machine__content h3 {
+  color: #1c1a1a;
+  font-family: "ZCOOLXiaoWei", serif;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 0 34px;
+}
+
+.purchase-machine__content span {
+  display: block;
+  color: #6f6f6f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 0 0 7px;
+}
+
+.purchase-machine__content p {
+  color: #141313;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 0 0 33px;
+}
+
+.purchase-machine__button {
+  display: inline-block;
+  box-shadow: 0 2px 10px 0 rgba(#121212, 0.25);
+  background-color: #232020;
+  padding: 9px 14px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.purchase-machine__picture {
+  min-width: 380px;
+  height: 100%;
+}
+
+.purchase-machine__picture img {
+  width: 100%;
+  padding: 37px 0;
+}
